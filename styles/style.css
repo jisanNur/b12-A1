@@ -101,3 +101,36 @@
     border-radius: 20px;
 }
 
+/* Productive Users Section start here */
+
+.production-container{
+    margin: 100px  auto;
+    background-color: #4E47FF1A;
+    border-radius: 20px;
+   
+}
+.users-container{
+    padding: 40px 60px;
+}
+.production-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.users-contant{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+}
+.users h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+.users p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #00000080;
+}
+
