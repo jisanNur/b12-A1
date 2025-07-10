@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+/* shared styles */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.btn-primary{
+    border: none;
+    background-color: #4E47FF;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+}
+.width-container{
+    width: 1140px;
+}
+/* nav bar section  start here */
+.hero{
+    height: 600px;
+    background-image: url(../Assets/Hero-bg.png)
+}
+
+.navbar{
+    /* border: 2px solid red; */
+    width: 1140px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+}
+
+/* nav bar section  End here */
+
+/* Banner section start here */
+
+.banner-container{
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    width: 900px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.banner-container h1{
+    font-size: 65px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
