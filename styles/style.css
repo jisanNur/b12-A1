@@ -29,12 +29,11 @@
 }
 /* nav bar section  start here */
 .hero{
-    height: 600px;
+    height: 650px;
     background-image: url(../Assets/Hero-bg.png)
 }
 
 .navbar{
-    /* border: 2px solid red; */
     width: 1140px;
     height: 150px;
     margin: 0 auto;
@@ -53,7 +52,6 @@
 /* Banner section start here */
 
 .banner-container{
-    /* border: 2px solid red; */
     margin: 100px auto;
     width: 900px;
     height: 300px;
@@ -67,5 +65,39 @@
     margin-top: 40px;
     margin-bottom: 40px;
 
+}
+
+/* action section  start here */
+.action-container{
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-contant{
+    width: 520px;
+    height: 200px;
+    padding: 20px;
+}
+
+.action-contant h2{
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.action-contant p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #25243280;
+    margin: 20px 0px;
+}
+
+.action-contant-2{
+    padding: 20px;
+}
+
+.action-contant-2 img{
+    border-radius: 20px;
 }
 
