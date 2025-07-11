@@ -5,14 +5,11 @@
 /* shared styles */
 .inter-font {
     font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
     font-style: normal;
 }
 
 .raleway-font {
   font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
 }
@@ -26,6 +23,10 @@
 }
 .width-container{
     width: 1140px;
+}
+
+main{
+    background-color: rgb(234, 241, 243);
 }
 /* nav bar section  start here */
 .hero{
@@ -69,7 +70,7 @@
 
 /* action section  start here */
 .action-container{
-    margin: 50px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +95,7 @@
 }
 
 .action-contant-2{
-    padding: 20px;
+    padding: 50px 0px;
 }
 
 .action-contant-2 img{
@@ -158,8 +159,9 @@
 .feedback-card{
     width: 350px;
     height: 260px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     border-radius: 10px;
+    background-color: white;
 }
 
 .feed-img h4{
@@ -209,4 +211,67 @@
     align-items: center;
     gap: 20px;
     margin-top: 20px;
+}
+
+/* lets get section start here */
+
+.lets-get-container{
+    height: 630px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.lets-get-title{
+    width: 520px;
+    height: 210px;
+    
+}
+
+.lets-get-title h1{
+    font-size: 95px;
+    font-weight: 800;
+}
+
+.lets-get-form{
+    width: 520px;
+    height: 400px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+form input{
+    width: auto;
+    height: 50px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 0px 20px;
+}
+
+input::placeholder{
+    font-family: "Inter", sans-serif;
+}
+textarea::placeholder{
+    font-family: "Inter", sans-serif;
+}
+
+form label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+form textarea{
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
 }
